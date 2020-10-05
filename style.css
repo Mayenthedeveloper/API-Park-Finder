@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  .hidden{
+    display: none;
+  }
+  body{
+    font-family: sans-serif;
+    background: #cccccc;
+  }
+  
+  section {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .container{
+    text-align: center;
+    margin: 0 auto:
+  
+  }
+  
+  img {
+    width: 30%;
+    
+  }
+  
+  button{
+    padding: 10px;
+    margin-bottom: 10px;
+  
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .error-message {
+      color: red;
+  }

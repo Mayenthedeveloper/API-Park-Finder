@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>National Park</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/US-NationalParkService-Logo.svg" alt="National park logo">
+      <section>
+        <h1>National Park Services</h1>
+        <p>Please find a list of national parks for each State</p>
+      </section>
+     
+        <form>
+          <label class='statePark'>State</label>
+          <input type='text' name="searchState" id="js-searchState" placeholder="OR" value="" required>
+          <br>
+          <label class='maxnumber'>Maximum number of parks</label>
+          <input id="js-max" type="number" value='10'>
+          <br>
+          <button class="submit" type="submit">Search</button>
+        </form>
+      
+
+      <p id='js-error-message' class='error-message'></p>
+
+      <section id="result" class="hidden">
+        <h2 class="state">Search Park result for</h2>
+        <ul id="results-list">
+        </ul> 
+
+      </section>
+    </div>
+
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
